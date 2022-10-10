@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2DFC253328F407F700EBFECC /* HoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC253228F407F700EBFECC /* HoonApp.swift */; };
-		2DFC253528F407F700EBFECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC253428F407F700EBFECC /* ContentView.swift */; };
+		2DFC253528F407F700EBFECC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC253428F407F700EBFECC /* RootView.swift */; };
 		2DFC253728F407F900EBFECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC253628F407F900EBFECC /* Assets.xcassets */; };
 		2DFC253A28F407F900EBFECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC253928F407F900EBFECC /* Preview Assets.xcassets */; };
 		2DFC254128F4083800EBFECC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC254028F4083600EBFECC /* GoogleService-Info.plist */; };
 		2DFC254828F40F2500EBFECC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC254728F40F2500EBFECC /* LoginView.swift */; };
-		2DFC254A28F40F2F00EBFECC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC254928F40F2F00EBFECC /* ProfileView.swift */; };
+		2DFC254E28F4116000EBFECC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC254D28F4116000EBFECC /* AuthViewModel.swift */; };
+		2DFC255128F4179300EBFECC /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255028F4179300EBFECC /* CustomTabBar.swift */; };
+		2DFC255328F418AD00EBFECC /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255228F418AD00EBFECC /* LessonView.swift */; };
+		2DFC255828F418DC00EBFECC /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255728F418DC00EBFECC /* ModuleView.swift */; };
+		2DFC255A28F418E400EBFECC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255928F418E400EBFECC /* ProfileView.swift */; };
 		9DCC88AF1AC0C28CA4650B3F /* Pods_Hoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379E7760BBFDED178756D591 /* Pods_Hoon.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +25,16 @@
 		0BD4166E7048E02E9E8A9CBD /* Pods-Hoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoon.debug.xcconfig"; path = "Target Support Files/Pods-Hoon/Pods-Hoon.debug.xcconfig"; sourceTree = "<group>"; };
 		2DFC252F28F407F700EBFECC /* Hoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFC253228F407F700EBFECC /* HoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoonApp.swift; sourceTree = "<group>"; };
-		2DFC253428F407F700EBFECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DFC253428F407F700EBFECC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		2DFC253628F407F900EBFECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFC253928F407F900EBFECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DFC254028F4083600EBFECC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DFC254728F40F2500EBFECC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		2DFC254928F40F2F00EBFECC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2DFC254D28F4116000EBFECC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		2DFC255028F4179300EBFECC /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		2DFC255228F418AD00EBFECC /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		2DFC255728F418DC00EBFECC /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
+		2DFC255928F418E400EBFECC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3242B0172A5385A0533C05C4 /* Pods-Hoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoon.release.xcconfig"; path = "Target Support Files/Pods-Hoon/Pods-Hoon.release.xcconfig"; sourceTree = "<group>"; };
 		379E7760BBFDED178756D591 /* Pods_Hoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,7 +76,6 @@
 				2DFC254528F40F0B00EBFECC /* Views */,
 				2DFC254428F40F0000EBFECC /* ViewModels */,
 				2DFC254328F40EFA00EBFECC /* Models */,
-				2DFC253428F407F700EBFECC /* ContentView.swift */,
 				2DFC253628F407F900EBFECC /* Assets.xcassets */,
 				2DFC254028F4083600EBFECC /* GoogleService-Info.plist */,
 				2DFC253828F407F900EBFECC /* Preview Content */,
@@ -94,6 +101,7 @@
 		2DFC254428F40F0000EBFECC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2DFC254D28F4116000EBFECC /* AuthViewModel.swift */,
 			);
 			name = ViewModels;
 			path = "New Group/ViewModels";
@@ -102,6 +110,11 @@
 		2DFC254528F40F0B00EBFECC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2DFC253428F407F700EBFECC /* RootView.swift */,
+				2DFC255428F418B800EBFECC /* Lessons */,
+				2DFC255528F418C500EBFECC /* Modules */,
+				2DFC255628F418CA00EBFECC /* Profile */,
+				2DFC254F28F4178300EBFECC /* CustomTabBar */,
 				2DFC254628F40F1400EBFECC /* Account */,
 			);
 			path = Views;
@@ -111,9 +124,40 @@
 			isa = PBXGroup;
 			children = (
 				2DFC254728F40F2500EBFECC /* LoginView.swift */,
-				2DFC254928F40F2F00EBFECC /* ProfileView.swift */,
 			);
 			path = Account;
+			sourceTree = "<group>";
+		};
+		2DFC254F28F4178300EBFECC /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DFC255028F4179300EBFECC /* CustomTabBar.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		2DFC255428F418B800EBFECC /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				2DFC255228F418AD00EBFECC /* LessonView.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		2DFC255528F418C500EBFECC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2DFC255728F418DC00EBFECC /* ModuleView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2DFC255628F418CA00EBFECC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2DFC255928F418E400EBFECC /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		3E7303C75ECB6F732D3DFD6A /* Pods */ = {
@@ -248,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFC254A28F40F2F00EBFECC /* ProfileView.swift in Sources */,
+				2DFC255A28F418E400EBFECC /* ProfileView.swift in Sources */,
+				2DFC255828F418DC00EBFECC /* ModuleView.swift in Sources */,
+				2DFC254E28F4116000EBFECC /* AuthViewModel.swift in Sources */,
+				2DFC255128F4179300EBFECC /* CustomTabBar.swift in Sources */,
 				2DFC254828F40F2500EBFECC /* LoginView.swift in Sources */,
-				2DFC253528F407F700EBFECC /* ContentView.swift in Sources */,
+				2DFC253528F407F700EBFECC /* RootView.swift in Sources */,
+				2DFC255328F418AD00EBFECC /* LessonView.swift in Sources */,
 				2DFC253328F407F700EBFECC /* HoonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
