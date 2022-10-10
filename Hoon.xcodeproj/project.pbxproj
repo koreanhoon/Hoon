@@ -12,12 +12,14 @@
 		2DFC253728F407F900EBFECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC253628F407F900EBFECC /* Assets.xcassets */; };
 		2DFC253A28F407F900EBFECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC253928F407F900EBFECC /* Preview Assets.xcassets */; };
 		2DFC254128F4083800EBFECC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC254028F4083600EBFECC /* GoogleService-Info.plist */; };
-		2DFC254828F40F2500EBFECC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC254728F40F2500EBFECC /* LoginView.swift */; };
 		2DFC254E28F4116000EBFECC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC254D28F4116000EBFECC /* AuthViewModel.swift */; };
 		2DFC255128F4179300EBFECC /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255028F4179300EBFECC /* CustomTabBar.swift */; };
 		2DFC255328F418AD00EBFECC /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255228F418AD00EBFECC /* LessonView.swift */; };
 		2DFC255828F418DC00EBFECC /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255728F418DC00EBFECC /* ModuleView.swift */; };
 		2DFC255A28F418E400EBFECC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255928F418E400EBFECC /* ProfileView.swift */; };
+		2DFC255D28F41ED900EBFECC /* LoginWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255C28F41ED900EBFECC /* LoginWelcomeView.swift */; };
+		2DFC255F28F41EF500EBFECC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC255E28F41EF500EBFECC /* SignUpView.swift */; };
+		2DFC256128F41EFD00EBFECC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC256028F41EFD00EBFECC /* SignInView.swift */; };
 		9DCC88AF1AC0C28CA4650B3F /* Pods_Hoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379E7760BBFDED178756D591 /* Pods_Hoon.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +31,14 @@
 		2DFC253628F407F900EBFECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFC253928F407F900EBFECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DFC254028F4083600EBFECC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2DFC254728F40F2500EBFECC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2DFC254D28F4116000EBFECC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		2DFC255028F4179300EBFECC /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2DFC255228F418AD00EBFECC /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
 		2DFC255728F418DC00EBFECC /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
 		2DFC255928F418E400EBFECC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2DFC255C28F41ED900EBFECC /* LoginWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWelcomeView.swift; sourceTree = "<group>"; };
+		2DFC255E28F41EF500EBFECC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2DFC256028F41EFD00EBFECC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		3242B0172A5385A0533C05C4 /* Pods-Hoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoon.release.xcconfig"; path = "Target Support Files/Pods-Hoon/Pods-Hoon.release.xcconfig"; sourceTree = "<group>"; };
 		379E7760BBFDED178756D591 /* Pods_Hoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,21 +115,13 @@
 			isa = PBXGroup;
 			children = (
 				2DFC253428F407F700EBFECC /* RootView.swift */,
+				2DFC255B28F41EBD00EBFECC /* Login */,
 				2DFC255428F418B800EBFECC /* Lessons */,
 				2DFC255528F418C500EBFECC /* Modules */,
 				2DFC255628F418CA00EBFECC /* Profile */,
 				2DFC254F28F4178300EBFECC /* CustomTabBar */,
-				2DFC254628F40F1400EBFECC /* Account */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		2DFC254628F40F1400EBFECC /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				2DFC254728F40F2500EBFECC /* LoginView.swift */,
-			);
-			path = Account;
 			sourceTree = "<group>";
 		};
 		2DFC254F28F4178300EBFECC /* CustomTabBar */ = {
@@ -158,6 +154,16 @@
 				2DFC255928F418E400EBFECC /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		2DFC255B28F41EBD00EBFECC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2DFC255C28F41ED900EBFECC /* LoginWelcomeView.swift */,
+				2DFC255E28F41EF500EBFECC /* SignUpView.swift */,
+				2DFC256028F41EFD00EBFECC /* SignInView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		3E7303C75ECB6F732D3DFD6A /* Pods */ = {
@@ -296,9 +302,11 @@
 				2DFC255828F418DC00EBFECC /* ModuleView.swift in Sources */,
 				2DFC254E28F4116000EBFECC /* AuthViewModel.swift in Sources */,
 				2DFC255128F4179300EBFECC /* CustomTabBar.swift in Sources */,
-				2DFC254828F40F2500EBFECC /* LoginView.swift in Sources */,
 				2DFC253528F407F700EBFECC /* RootView.swift in Sources */,
+				2DFC255F28F41EF500EBFECC /* SignUpView.swift in Sources */,
 				2DFC255328F418AD00EBFECC /* LessonView.swift in Sources */,
+				2DFC255D28F41ED900EBFECC /* LoginWelcomeView.swift in Sources */,
+				2DFC256128F41EFD00EBFECC /* SignInView.swift in Sources */,
 				2DFC253328F407F700EBFECC /* HoonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

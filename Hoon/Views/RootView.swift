@@ -10,6 +10,7 @@ import SwiftUI
 struct RootView: View {
     
     @State var selectedTab: Tabs = .home
+    @State var isLoggedIn = !AuthViewModel.isUserLoggedIn()
         
     var body: some View {
         
@@ -41,6 +42,14 @@ struct RootView: View {
                 
             }
             
+        }
+        .onAppear {
+            if !isLoggedIn {
+                // User has already onboarded, load lessons
+            }
+        }
+        .fullScreenCover(isPresented: $isLoggedIn) {
+            LoginWelcomeView()
         }
     }
 }
