@@ -11,6 +11,7 @@
 		2DFC253528F407F700EBFECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC253428F407F700EBFECC /* ContentView.swift */; };
 		2DFC253728F407F900EBFECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC253628F407F900EBFECC /* Assets.xcassets */; };
 		2DFC253A28F407F900EBFECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC253928F407F900EBFECC /* Preview Assets.xcassets */; };
+		2DFC254128F4083800EBFECC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC254028F4083600EBFECC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2DFC253428F407F700EBFECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DFC253628F407F900EBFECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFC253928F407F900EBFECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DFC254028F4083600EBFECC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				2DFC253228F407F700EBFECC /* HoonApp.swift */,
 				2DFC253428F407F700EBFECC /* ContentView.swift */,
 				2DFC253628F407F900EBFECC /* Assets.xcassets */,
+				2DFC254028F4083600EBFECC /* GoogleService-Info.plist */,
 				2DFC253828F407F900EBFECC /* Preview Content */,
 			);
 			path = Hoon;
@@ -111,6 +114,8 @@
 				Base,
 			);
 			mainGroup = 2DFC252628F407F700EBFECC;
+			packageReferences = (
+			);
 			productRefGroup = 2DFC253028F407F700EBFECC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFC253A28F407F900EBFECC /* Preview Assets.xcassets in Resources */,
+				2DFC254128F4083800EBFECC /* GoogleService-Info.plist in Resources */,
 				2DFC253728F407F900EBFECC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
