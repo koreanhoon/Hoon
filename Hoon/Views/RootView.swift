@@ -49,7 +49,7 @@ struct RootView: View {
             }
         }
         .fullScreenCover(isPresented: $isLoggedIn) {
-            LoginWelcomeView()
+            LoginContainerView(isLogin: $isLoggedIn)
         }
     }
 }
